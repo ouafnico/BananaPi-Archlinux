@@ -12,4 +12,4 @@ Follow these steps :
 4- Compile zImage and dtb file from Mainline Kernel http://linux-sunxi.org/Mainline_Kernel_Howto or get the compiled ones here. 
 
 5- Install Arch following the same process here but use the previous files https://archlinuxarm.org/platforms/armv7/allwinner/pcduino3
-
+	
