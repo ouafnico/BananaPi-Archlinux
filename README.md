@@ -8,3 +8,4 @@ Follow these steps :
 3- dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8
 4- Compile zImage and dtb file from Mainline Kernel http://linux-sunxi.org/Mainline_Kernel_Howto or get the compiled ones here. 
 5- Install Arch following the same process here but use the previous files https://archlinuxarm.org/platforms/armv7/allwinner/pcduino3
+
