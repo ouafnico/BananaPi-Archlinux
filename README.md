@@ -17,8 +17,8 @@ Follow these steps :
 3. Compile zImage and dtb file from Mainline Kernel http://linux-sunxi.org/Mainline_Kernel_Howto or get the compiled ones here (Kernel 4.4.6). 
 
 	* git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-	* Get the file bananapiv6_defconfig and put it in git folder (linux/arch/arm/configs/)
-	* make -j<Number of CPUs> ARCH=arm CROSS_COMPILE=arm-none-eabi- bananapiv6_defconfig
+	* Get the file bananapi_defconfig and put it in git folder (linux/arch/arm/configs/)
+	* make -j<Number of CPUs> ARCH=arm CROSS_COMPILE=arm-none-eabi- bananapi_defconfig
 	* make -j<Number of CPUs> ARCH=arm CROSS_COMPILE=arm-none-eabi- zImage dtbs
 	* Get the zImage file from linux/arch/arm/boot/
 	* Get the sun7i-a20-bananapi.dtb file from linux/arch/arm/boot/dtb/
