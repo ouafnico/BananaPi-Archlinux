@@ -11,7 +11,6 @@ Follow these steps :
 2. Create the boot.scr file or get it here (boot.scr). 
 
 	* Get the boot.cmd file. Or directly the boot.scr and skip b- step.
-
 	* Generate the boot.scr file: mkimage -C none -A arm -T script -d boot.cmd boot.scr
 
 3. Compile zImage and dtb file from Mainline Kernel http://linux-sunxi.org/Mainline_Kernel_Howto or get the compiled ones here (Kernel 4.4.6). 
@@ -44,3 +43,4 @@ Warning, starting from Kernel 4.5 some changes have been made on stmmac driver. 
 6. Start the Bananapi. It should work :)
 
 Root password is root. Alarm password is alarm (default from Arch ARM).
+
