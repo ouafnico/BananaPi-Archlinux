@@ -27,8 +27,8 @@ Warning, starting from Kernel 4.5 some changes have been made on stmmac driver. 
 
 5. Install Arch
 
-	* Get a 4GB SDcard at least
-	* Create two partitions with fdisk. 100M for the first, the rest of SD for the second. We will consider the card is mmcblk0.
+	* Get a 4GB SDcard at least.
+	* We will consider the SDCard is mmcblk0. Create two partitions with fdisk. 100M for the first, the rest of SD for the second. Add the bootable flag for the first partition.
 	* mkfs.vfat /dev/mmcblk0p1
 	* mkfs.ext4 /dev/mmcblk0p2
 	* mount /dev/mmcblk0p2 /mnt
