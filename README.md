@@ -1,5 +1,5 @@
 # BananaPi-Archlinux
-How to install Archlinux on BananaPi-M1 with last kernel.
+How to install Archlinux on BananaPi M1 with last kernel.
 Didn't try it on other models...
 
 Follow these steps :
@@ -44,6 +44,9 @@ Warning, starting from Kernel 4.5 some changes have been made on stmmac driver. 
 6. Start the Bananapi. It should work :)
 
 Root password is root. Alarm password is alarm (default from Arch ARM).
+
+
+* Edited on March 2016.
 
 * Licenses:
 	* Archlinux: https://wiki.archlinux.org/index.php/Licenses
