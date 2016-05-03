@@ -1,5 +1,6 @@
 # BananaPi-Archlinux
-How to install Archlinux on BananaPi M1 with last kernel.
+How to install Archlinux on BananaPi M1 with kernel 4.4.x. Actually I'm not using 4.5.x because of a big with STMMAC driver (ethernet) not yet fixed.
+
 Didn't try it on other models...
 
 Follow these steps :
@@ -23,8 +24,6 @@ Follow these steps :
 	* Get the zImage file from linux/arch/arm/boot/
 	* Get the sun7i-a20-bananapi.dtb file from linux/arch/arm/boot/dtb/
 
-Warning, starting from Kernel 4.5 some changes have been made on stmmac driver. If problem get the 4.4.6 kernel.
-
 5. Install Arch
 
 	* Get a 4GB SDcard at least.
@@ -46,7 +45,7 @@ Warning, starting from Kernel 4.5 some changes have been made on stmmac driver. 
 Root password is root. Alarm password is alarm (default from Arch ARM).
 
 
-* Edited on March 2016.
+* Edited on May 2016 (Version of zImage/dtb file for Kernel 4.4.8).
 
 * Licenses:
 	* Archlinux: https://wiki.archlinux.org/index.php/Licenses
