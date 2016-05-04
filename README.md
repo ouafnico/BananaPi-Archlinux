@@ -2,7 +2,7 @@
 How to install Archlinux on BananaPi M1 with kernel 4.4.x and 4.5.x.
 Kernel 4.4.x directly works. The 4.5.x need to be patched before because a stmmac bug. 
 
-Didn't try it on other models...
+Works too on PCDuino3-Nano (A20), for kernel 4.5.2. DTB for this board is provided too.
 
 Follow these steps :
 
